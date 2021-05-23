@@ -20,6 +20,12 @@ with st.sidebar.header('1. Upload your CSV data'):
 [Example CSV input file](https://raw.githubusercontent.com/chakree10/EDA-web-app/main/Boston.csv)
 """)
 
+link1 = '[Regression](https://share.streamlit.io/chakree10/regression/main/regressor.py)'
+st.markdown(link1, unsafe_allow_html=True)
+
+link2 = '[Classification](https://share.streamlit.io/chakree10/classification/main/classifier.py)'
+st.markdown(link1, unsafe_allow_html=True)
+
 # Pandas Profiling Report
 if uploaded_file is not None:
     @st.cache
