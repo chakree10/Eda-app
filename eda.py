@@ -31,7 +31,7 @@ if uploaded_file is not None:
     st.header('**Input DataFrame**')
     st.write(df)
     st.write('---')
-    st.header('**Pandas Profiling Report**')
+    st.header('**Data Distribution and Relationship Report**')
     st_profile_report(pr)
 else:
     st.info('Awaiting for CSV file to be uploaded.')
